@@ -9,14 +9,14 @@ export default async function BlogDetailsCard({
 }) {
   if (!blog) {
     return (
-      <div className="min-h-screen flex items-center justify-center text-gray-500 text-xl">
+      <div className=" flex items-center justify-center text-gray-500 text-xl">
         Blog not found.
       </div>
     );
   }
 
   return (
-    <main className="bg-white min-h-screen py-24">
+    <main className="bg-white py-20">
       {/* Hero Section */}
       <section className="max-w-6xl mx-auto px-4">
         <div className="relative w-full h-[450px] rounded-3xl overflow-hidden shadow-2xl">
